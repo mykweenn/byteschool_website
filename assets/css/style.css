@@ -982,6 +982,15 @@ a.contact-link:is(:hover, :focus) {
 
 /* #MEDIA QUERIES */
 
+
+@media (max-width: 735px) {
+  .contacts_list {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 @media (min-width: 300px) {
   :root {
     --fs-40: 6rem;
@@ -1122,6 +1131,8 @@ a.contact-link:is(:hover, :focus) {
   /**
    * APPOINTMENT
    */
+
+   
 
   .appoin-card .card-content {
     padding-inline: 50px;
